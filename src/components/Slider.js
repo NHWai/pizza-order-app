@@ -57,7 +57,7 @@ function Slider() {
   return (
     <div className="content">
       <div className="holder">
-        <AnimatePresence exitBeforeEnter initial={false} custom={direction}>
+        <AnimatePresence initial={false} custom={direction}>
           <motion.img
             className="slider-img"
             key={page}
